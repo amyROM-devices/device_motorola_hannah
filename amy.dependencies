@@ -1,0 +1,22 @@
+[
+    {
+        "repository":   "amyROM-devices/device_motorola_hannah-common",
+        "target_path":  "device/motorola/hannah-common",
+        "branch":       "rosie"
+    },
+    {
+        "repository":   "amyROM-devices/kernel_motorola_msm8953",
+        "target_path":  "kernel/motorola/msm8953",
+        "branch":       "rosie"
+    },
+    {
+        "repository":   "LineageOS/android_device_motorola_msm8937-common",
+        "target_path":  "device/motorola/msm8937-common",
+        "branch":       "lineage-18.1"
+    },
+    {
+        "repository":   "TheMuppets/proprietary_vendor_motorola",
+        "target_path":  "vendor/motorola",
+        "branch":       "lineage-18.1"
+    }
+]
