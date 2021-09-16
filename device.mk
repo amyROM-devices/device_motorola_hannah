@@ -10,6 +10,10 @@ $(call inherit-product, device/motorola/hannah-common/common.mk)
 # Properties
 -include $(LOCAL_PATH)/vendor_prop.mk
 
+# Overlay
+DEVICE_PACKAGE_OVERLAYS += \
+    $(LOCAL_PATH)/overlay-amy
+
 # Audio
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/audio/audio_platform_info.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_platform_info.xml \
